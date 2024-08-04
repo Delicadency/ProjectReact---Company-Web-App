@@ -1,2 +1,18 @@
 @import "normalize.css";
 
+:root {
+  --text-primary: #000000;
+  --text-secondary: #ffffff;
+  --background: #f1f1f1;
+  --primary: #405d78;
+  --secondary: #907d7d;
+  --accent: #e07a64;
+  --navbar: #4e4e4e;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  line-height: 21px;
+  color: var(--text-primary);
+}
