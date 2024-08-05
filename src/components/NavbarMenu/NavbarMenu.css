@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+  .navbar__menu {
+    color: var(--background);
+    font-size: 18px;
+    gap: 46px;
+  }
+}

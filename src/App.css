@@ -1,0 +1,36 @@
+.bold {
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+}
+.f-direction--column{
+  flex-direction: column;
+}
+.j-c--center {
+  justify-content: center;
+}
+.j-c--space-between {
+  justify-content: space-between;
+}
+.a-i--center {
+  align-items: center;
+}
+.container {
+  width: 90%;
+}
+.link {
+  text-decoration: none;
+  color: var(--text-secondary);
+}
+.link:visited {
+  color: var(--text-secondary);
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
+  .j-c--flex-end {
+    justify-content: flex-end;
+  }
+}

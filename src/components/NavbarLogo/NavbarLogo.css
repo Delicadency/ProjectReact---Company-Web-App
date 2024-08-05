@@ -1,0 +1,11 @@
+.navbar__logo {
+  color: var(--text-secondary);
+  font-size: 18px;
+  padding: 6px 26px 6px 0;
+  justify-self: flex-start;
+}
+@media (min-width: 1024px) {
+  .navbar__logo {
+    padding-right: 0;
+  }
+}
