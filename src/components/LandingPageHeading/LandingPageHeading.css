@@ -1,0 +1,7 @@
+.landing-page__heading {
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 62px;
+  color: var(--text-secondary);
+  display: block;
+}

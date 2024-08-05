@@ -1,0 +1,23 @@
+.landing-page__button {
+  width: 164px;
+  height: 41px;
+  background-color: #c4c4c400;
+  color: var(--text-secondary);
+  border: var(--text-secondary) solid 3px;
+  transition: background-color 1s ease-in, color 1s ease-in;
+}
+.link-button {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: inherit;
+}
+.link-button:visited {
+  color: inherit;
+}
+@media (min-width: 1024px) {
+  .landing-page__button:hover {
+    background-color: var(--text-secondary);
+    color: var(--text-primary);
+  }
+}

@@ -1,6 +1,8 @@
 import "./Section.css";
 import React from "react";
-import background from "../images/background-pizza.jpg"
+import background from "../images/background-pizza.jpg";
+import LandingPage from "../LandingPage/LandingPage";
+
 const sectionTypes = [
   {
     id: "landing-page",
