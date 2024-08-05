@@ -16,6 +16,9 @@
 .a-i--center {
   align-items: center;
 }
+.h--fit-content{
+  height:fit-content;
+}
 .container {
   width: 90%;
 }
