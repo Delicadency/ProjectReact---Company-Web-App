@@ -1,13 +1,15 @@
 import "./Section.css";
 import React from "react";
-import background from "../images/background-pizza.jpg";
+import background from "../../images/background-pizza.jpg";
 import LandingPage from "../LandingPage/LandingPage";
+import About from "../About/About";
+import Offer from "../Offer/Offer";
 
 const sectionTypes = [
   {
     id: "landing-page",
     class: "flex j-c--center a-i--center landing-page",
-    style: { backgroundImage: `url(${background}) no-repeat` },
+    style: { backgroundImage: `url(${background})` },
     child: <LandingPage />,
   },
   {

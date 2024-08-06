@@ -4,8 +4,11 @@
 .flex {
   display: flex;
 }
-.f-direction--column{
+.f-direction--column {
   flex-direction: column;
+}
+.f-w--wrap {
+  flex-wrap: wrap;
 }
 .j-c--center {
   justify-content: center;
@@ -16,8 +19,11 @@
 .a-i--center {
   align-items: center;
 }
-.h--fit-content{
-  height:fit-content;
+.h--fit-content {
+  height: fit-content;
+}
+.text-a--justify {
+  text-align: justify;
 }
 .container {
   width: 90%;
@@ -32,11 +38,18 @@
 .paragraph {
   font-size: 18px;
 }
+.span {
+  display: block;
+  margin-bottom: 30px;
+}
 @media (min-width: 1024px) {
   .container {
     width: 960px;
   }
   .j-c--flex-end {
     justify-content: flex-end;
+  }
+  .f-w--wrap {
+    flex-wrap: nowrap;
   }
 }
