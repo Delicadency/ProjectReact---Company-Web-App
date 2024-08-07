@@ -10,6 +10,9 @@
 .f-w--wrap {
   flex-wrap: wrap;
 }
+.f--flow {
+  flex-flow: column;
+}
 .j-c--center {
   justify-content: center;
 }
@@ -51,5 +54,8 @@
   }
   .f-w--wrap {
     flex-wrap: nowrap;
+  }
+  .f--flow {
+    flex-flow: row wrap;
   }
 }
