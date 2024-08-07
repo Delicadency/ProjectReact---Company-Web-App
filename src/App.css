@@ -45,6 +45,10 @@
   display: block;
   margin-bottom: 30px;
 }
+.icon {
+  color: var(--text-secondary);
+  margin: 15px 9px;
+}
 @media (min-width: 1024px) {
   .container {
     width: 960px;
@@ -57,5 +61,8 @@
   }
   .f--flow {
     flex-flow: row wrap;
+  }
+  .icon {
+    margin: 25px 9px;
   }
 }
