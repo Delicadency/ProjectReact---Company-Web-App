@@ -9,20 +9,20 @@
   align-self: center;
   justify-self: center;
 }
-.footer--direction-and-justify{
-    flex-direction: column;
-    justify-content: center;
+.footer--direction-and-justify {
+  flex-direction: column;
+  justify-content: center;
 }
 
-@media(min-width:1024px){
-    .footer{
-        height: 71px;
-    }
-    .footer__paragraph{
-        margin: 25px;
-    }
-    .footer--direction-and-justify{
-        flex-direction: row;
-        justify-content: space-between;
-    }
+@media (min-width: 1024px) {
+  .footer {
+    height: 83px;
+  }
+  .footer__paragraph {
+    margin: 25px;
+  }
+  .footer--direction-and-justify {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
