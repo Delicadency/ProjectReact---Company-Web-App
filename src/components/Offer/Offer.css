@@ -1,7 +1,6 @@
 .offer__container {
   width: 100%;
   gap: 45px;
-  margin: 45px;
 }
 
 @media (min-width: 1024px) {
