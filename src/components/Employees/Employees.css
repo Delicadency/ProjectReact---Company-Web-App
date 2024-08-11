@@ -8,10 +8,6 @@
   background-size: cover;
   background-position: center;
 }
-.about__employee-container:last-of-type {
-  margin-bottom: 60px;
-}
-
 @media (min-width: 1024px) {
   .about__paragraph {
     width: 640px;

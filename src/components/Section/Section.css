@@ -11,3 +11,6 @@
 .offer {
   background-color: var(--primary);
 }
+.section {
+  padding: 45px 0;
+}

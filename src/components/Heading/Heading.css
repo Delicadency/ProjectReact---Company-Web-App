@@ -15,7 +15,7 @@
   .about__heading,
   .offer__heading {
     align-self: flex-start;
-    margin: 60px 60px 20px 60px;
+    margin: 20px 60px;
   }
   .offer__heading {
     display: block;

@@ -14,12 +14,12 @@ const sectionTypes = [
   },
   {
     id: "about",
-    class: "flex j-c--center a-i--center h--fit-content about",
+    class: "flex j-c--center a-i--center h--fit-content section about",
     child: <About />,
   },
   {
     id: "offer",
-    class: "flex j-c--center a-i--center h--fit-content offer",
+    class: "flex j-c--center a-i--center h--fit-content section offer",
     child: <Offer />,
   },
 ];
