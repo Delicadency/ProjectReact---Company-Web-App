@@ -42,11 +42,11 @@ Projekt można podejrzeć [tutaj](https://react-company-web-app.netlify.app/).
 - Każde pole z ofertą jest zaimplementowane jako oddzielny komponent React.
 - Komponent oferty przyjmuje parametr `isNew`, który wyświetla tekst "Nowość" oraz czerwony punkt, jeśli wartość parametru jest prawdziwa.
 
-### ListapPracowników:
+### Lista pracowników:
 - Została dodana funkcjonalność do wyświetlania listy pracowników.
 - Każdy wiersz z danymi pracownika to oddzielny komponent, który przyjmuje parametry takie jak imię, nazwisko, stanowisko, opis i URL zdjęcia pracownika.
 
-## Projektowanie i Technologie
+## Design i technologie
 Aplikacja została zbudowana przy użyciu React.
 
 Czcionka: Projekt używa czcionki Roboto, która została pobrana z [Google Fonts](https://fonts.google.com/specimen/Roboto).
