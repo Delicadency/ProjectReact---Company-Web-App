@@ -1,13 +1,15 @@
 .footer {
   width: 100%;
-  height: 147px;
+  height: auto;
   color: var(--text-secondary);
   background-color: var(--navbar);
+  padding: 15px 0;
 }
 .footer__paragraph {
-  margin: 15px;
-  align-self: center;
-  justify-self: center;
+  font-size: 17px;
+  margin: 0;
+  padding: 9px;
+  text-align: center;
 }
 .footer--direction-and-justify {
   flex-direction: column;
@@ -15,12 +17,6 @@
 }
 
 @media (min-width: 1024px) {
-  .footer {
-    height: 83px;
-  }
-  .footer__paragraph {
-    margin: 25px;
-  }
   .footer--direction-and-justify {
     flex-direction: row;
     justify-content: space-between;
