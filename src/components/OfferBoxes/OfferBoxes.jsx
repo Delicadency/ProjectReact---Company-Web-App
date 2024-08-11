@@ -1,22 +1,11 @@
-import "./OfferBoxes.css";
 import { offerts } from "../../data/offers";
+import OfferBox from "../OfferBox/OfferBox";
 
 const OfferBoxes = () => {
   return (
     <>
       {offerts.map((offer, index) => (
-        <div key={index} className="flex j-c--center a-i--center offer__box">
-          {offer.isNew && (
-            <>
-              <div className="offer__dot"></div>
-              <p className="offer__paragraph">
-                {offer.name}
-                <span className="paragraph offer__span">(nowość)</span>
-              </p>
-            </>
-          )}
-          {!offer.isNew && <p className="offer__paragraph">{offer.name}</p>}
-        </div>
+        <OfferBox key={index} offer={offer} />
       ))}
     </>
   );
