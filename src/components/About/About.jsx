@@ -1,5 +1,3 @@
-import "./About.css";
-import React from "react";
 import Heading from "../Heading/Heading";
 import Employees from "../Employees/Employees";
 
