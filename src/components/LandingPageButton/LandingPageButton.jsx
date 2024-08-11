@@ -3,11 +3,9 @@ import "./LandingPageButton.css";
 
 const LandingPageButton = () => {
   return (
-    <div className="flex j-c--center a-i--center landing-page__button">
-      <a className="link-button" href="#offer">
+    <a className="flex j-c--center a-i--center landing-page__button" href="#offer">
         oferta
-      </a>
-    </div>
+    </a>
   );
 };
 export default LandingPageButton;
