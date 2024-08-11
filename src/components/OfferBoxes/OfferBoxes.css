@@ -23,7 +23,8 @@
   margin: auto;
 }
 .offer__span {
-  margin: 15px;
+ display: block;
+ padding: 5px 0 0;
 }
 
 @media (min-width: 1024px) {

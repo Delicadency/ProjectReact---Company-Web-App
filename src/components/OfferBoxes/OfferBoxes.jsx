@@ -12,7 +12,7 @@ const OfferBoxes = () => {
               <div className="offer__dot"></div>
               <p className="offer__paragraph">
                 {offer.name}
-                <span className="paragraph span offer__span">(nowość)</span>
+                <span className="paragraph offer__span">(nowość)</span>
               </p>
             </>
           )}
