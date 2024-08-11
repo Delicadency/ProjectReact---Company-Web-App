@@ -1,4 +1,4 @@
-import "./Section.css";
+import "./Main.css";
 import background from "../../images/background-pizza.jpg";
 import LandingPage from "../LandingPage/LandingPage";
 import About from "../About/About";
@@ -23,9 +23,9 @@ const sectionTypes = [
   },
 ];
 
-const Section = () => {
+const Main = () => {
   return (
-    <>
+    <main>
       {sectionTypes.map((sectionType) => (
         <section
           key={sectionType.id}
@@ -36,8 +36,8 @@ const Section = () => {
           {sectionType.child}
         </section>
       ))}
-    </>
+    </main>
   );
 };
 
-export default Section;
+export default Main;
