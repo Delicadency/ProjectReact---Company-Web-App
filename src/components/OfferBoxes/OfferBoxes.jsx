@@ -1,5 +1,4 @@
 import "./OfferBoxes.css";
-import React from "react";
 import { offerts } from "../../data/offers";
 
 const OfferBoxes = () => {

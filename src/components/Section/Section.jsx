@@ -1,5 +1,4 @@
 import "./Section.css";
-import React from "react";
 import background from "../../images/background-pizza.jpg";
 import LandingPage from "../LandingPage/LandingPage";
 import About from "../About/About";

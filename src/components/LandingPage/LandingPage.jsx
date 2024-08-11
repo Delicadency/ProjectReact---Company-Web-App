@@ -1,5 +1,4 @@
 import "./LandingPage.css";
-import React from "react";
 import LandingPageHeading from "../LandingPageHeading/LandingPageHeading";
 import LandingPageParagraph from "../LandingPageParagraph/LandingPageParagraph";
 import LandingPageButton from "../LandingPageButton/LandingPageButton";

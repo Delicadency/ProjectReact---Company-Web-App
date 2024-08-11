@@ -1,4 +1,3 @@
-import React from "react";
 import "./Offer.css";
 import Heading from "../Heading/Heading";
 import OfferBoxes from "../OfferBoxes/OfferBoxes";

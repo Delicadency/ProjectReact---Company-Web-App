@@ -1,5 +1,4 @@
 import "./NavbarMenu.css";
-import React from "react";
 import NavbarMenuItem from "../NavbarMenuItem/NavbarMenuItem";
 
 const menuItems = [

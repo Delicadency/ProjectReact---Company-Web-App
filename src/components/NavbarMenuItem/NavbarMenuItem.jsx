@@ -1,5 +1,4 @@
 import "./NavbarMenuItem.css";
-import React from "react";
 
 const NavbarMenuItem = ({ href, label, isDisabled }) => {
   return (

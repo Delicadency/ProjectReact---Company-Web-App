@@ -1,5 +1,4 @@
 import "./Employees.css";
-import React from "react";
 import { listOfEmployees } from "../../data/employeesData";
 
 const Employees = () => {
