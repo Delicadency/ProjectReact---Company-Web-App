@@ -5,7 +5,9 @@
 .offer__heading {
   color: var(--text-secondary);
   font-size: 26px;
-  margin: 76px 0 20px 0;
+  line-height: 32px;
+  margin: 20px 0;
+  text-align: center;
 }
 .about__heading,
 .offer__heading {
